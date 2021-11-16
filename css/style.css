@@ -1,0 +1,322 @@
+/* ここから下に記載していく */
+
+html{
+  font-size: 62.5%;/*16px x 62.5% =10px */
+}
+
+body {
+  color: #333333;
+  font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", "meiryo";
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: justify;
+  width: 1140;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*Hero image*/
+
+.hero-image{
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+ 
+}
+
+.hero-image__text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,);
+  color: #fff;
+
+}
+
+.hero-image-sentence1{
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.hero-image-sentence2{
+  font-size: 2.0rem;
+}
+
+/*header*/
+
+.header {
+  display: flex;
+  list-style: none;
+  height: 121px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerimg{
+  width: 200px;
+}
+
+.nav-list{
+  display: flex;
+  margin: 0;
+  font-size: 21px;
+  justify-content: space-between
+}
+
+.nav-item{
+  padding: 0 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*header終わり*/
+
+
+.text-center{
+  text-align: center;
+}
+
+.subsubtitle{
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+/*aboutの写真部分*/
+.about__title{
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #ffd61a;
+  margin: 60px 0 30px;
+}
+
+.about__subtitle{
+  font-size: 18px;
+  margin: 30px 0 60px;
+
+}
+
+.about__sentence1{
+  margin: 60px 0 40px
+}
+
+.about__sentence2{
+  margin-bottom: 40px;
+}
+
+.about__sentence3{
+  margin-bottom: 80px;
+}
+
+.About__wrapper{
+  width: 1140px;
+  
+}
+
+.About__display{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/*Course部分*/
+.course__title{
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 60px 0 30px;
+
+}
+
+.course__discription{
+  margin-bottom: 60px;
+}
+
+.course__img{
+  max-width: 570px;
+  height: auto;
+  
+}
+
+.layout{
+  width: 570px;
+  height: auto;
+  background-color:#fafafa ;
+
+}
+
+.course__subtitle{
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.course__discription1{
+  text-align: justify;
+
+}
+
+.layout_inside{
+  margin: 50px 50px;
+}
+
+.layout_outside{
+  background-color: #fafafa;
+}
+
+.Course{
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.Course1{
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.course1{
+  display: flex;
+  margin: auto;
+  flex-direction: row-reverse;
+  max-width: 1140px;
+  
+}
+
+/*NEWS部分*/
+.wrapper{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.news__subtitle{
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 60px 0 30px
+}
+
+.News__list{
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.News__item{
+  width: 33.333%;
+}
+
+.btn{
+  display: block;
+  width: 300px;
+  margin: auto;
+  padding: 21px 0;
+  background-color:#ffd61a;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.News__eyecatch{
+  margin: 0 30 30;
+  
+}
+
+.News__heading{
+  margin: 0 0 24;
+  text-decoration: underline;
+}
+
+.News__sentence{
+  margin: 0 30 0;
+}
+/*NEWS部分終わり*/
+
+/*Access部分*/
+.access__title {
+  margin: 60px 0 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.access__subtitle{
+  margin: 30px 0 60px;
+}
+
+/*CONTACT部分*/
+
+
+.contact__title{
+  margin: 60px 0 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.form-wrapper{
+  width: 640px;
+  margin: auto;
+
+}
+
+.form-inner{
+ display: flex;
+ flex-wrap:wrap ; 
+}
+
+.form-title{
+  width: 240px;
+  margin: 0 20 0 0;
+  text-align: left;
+  padding-bottom: 24px;
+}
+
+.form-item{
+  width: 400px;
+  margin: 0 0 32px;
+}
+
+.form-parts{
+  box-sizing: border-box;
+  width: 328px;
+  font-size: 1.6 rem;
+  border: solid 1px #bfbfbf;
+  padding: 8px;
+  height: 36px;
+
+}
+
+.contact__sentence1{
+  margin: 30px 0 60px;
+}
+
+.contact__sentence2{
+  margin-bottom: 30px;
+}
+
+.contact__sentence3{
+  padding-bottom: 70px;
+}
+
+.btn-submit{
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+}
+
+/*footer*/
+
+.footer {
+  padding: 30px 0;
+  background-color:#707070 ;
+  margin-top: 80px;
+}
+
+.copyrights {
+  color: #fff;
+}
